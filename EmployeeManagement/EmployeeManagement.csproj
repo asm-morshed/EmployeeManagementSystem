@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF826F3D-0984-4F90-A30E-0FF4AF2D63EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmployeeManagement</RootNamespace>
+    <AssemblyName>EmployeeManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DepartmentManager.cs" />
+    <Compile Include="BLL\DesignationManager.cs" />
+    <Compile Include="BLL\EmployeeManager.cs" />
+    <Compile Include="BLL\LeaveManager.cs" />
+    <Compile Include="BLL\PaySystemManager.cs" />
+    <Compile Include="DLL\DAO\Department.cs" />
+    <Compile Include="DLL\DAO\Designation.cs" />
+    <Compile Include="DLL\DAO\Employee.cs" />
+    <Compile Include="DLL\DAO\Leave.cs" />
+    <Compile Include="DLL\DAO\PaySystem.cs" />
+    <Compile Include="DLL\Gateway\DBGateway.cs" />
+    <Compile Include="DLL\Gateway\DepartmentGateway.cs" />
+    <Compile Include="DLL\Gateway\DesignationGateway.cs" />
+    <Compile Include="DLL\Gateway\EmployeeGateway.cs" />
+    <Compile Include="DLL\Gateway\LeaveGateway.cs" />
+    <Compile Include="DLL\Gateway\PaySystemGateway.cs" />
+    <Compile Include="UI\AddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddDepartment.Designer.cs">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AddDesignation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AddDesignation.Designer.cs">
+      <DependentUpon>AddDesignation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EmployeeInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EmployeeInformation.Designer.cs">
+      <DependentUpon>EmployeeInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Leave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Leave.Designer.cs">
+      <DependentUpon>Leave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PaySystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PaySystem.Designer.cs">
+      <DependentUpon>PaySystem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\AddDepartment.resx">
+      <DependentUpon>AddDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\AddDesignation.resx">
+      <DependentUpon>AddDesignation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EmployeeInformation.resx">
+      <DependentUpon>EmployeeInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Leave.resx">
+      <DependentUpon>Leave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PaySystem.resx">
+      <DependentUpon>PaySystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

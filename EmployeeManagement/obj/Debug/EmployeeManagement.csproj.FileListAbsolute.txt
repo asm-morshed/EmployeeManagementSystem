@@ -1,0 +1,49 @@
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe.config
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.pdb
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Properties.Resources.resources
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.Cache
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.exe
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.PaySystem.resources
+c:\users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.Leave.resources
+C:\Users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.EmployeeInformation.resources
+C:\Users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.AddEmployee.resources
+C:\Users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDepartment.resources
+C:\Users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDesignation.resources
+C:\Users\md.morshed\documents\visual studio 2012\Projects\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AdminLogin.resources
+G:\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe.config
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.exe
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+G:\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe
+G:\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.pdb
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDepartment.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.AddEmployee.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Properties.Resources.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDesignation.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AdminLogin.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.EmployeeInformation.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.Leave.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.PaySystem.resources
+G:\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.Cache
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe.config
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.exe
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.exe
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\EmployeeManagement.pdb
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDepartment.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.AddEmployee.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Properties.Resources.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AddDesignation.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.AdminLogin.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.EmployeeInformation.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.Leave.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.UI.PaySystem.resources
+D:\MY Work\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.Cache
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\itextsharp.dll
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\itextsharp.pdfa.dll
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\itextsharp.xtra.dll
+D:\MY Work\EmployeeManagement\EmployeeManagement\bin\Debug\itextsharp.xml
